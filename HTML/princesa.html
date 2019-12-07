@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Studio Ghibli</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="viaje.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript">
+            window.onload=function(){
+                document.getElementById('cambiar').onmouseover=cambiacolor;
+                document.getElementById('cambiar').onmouseout=quitacolor;
+            }
+            function cambiacolor(){
+                document.getElementById('cambiar').style.color="gold";
+            }
+            function quitacolor(){
+                document.getElementById('cambiar').style.color="white";
+            }
+        </script>
+    </head>
+    <body>
+       <div class="texto" >
+             <h1 ><font face="Comic Sans MS,arial,verdana">La princesa Mononoke</font></h1>
+        </div>
+        <div id="menu">
+            <nav class="menuCSS">
+                <ul>
+                    <!--Películas-->
+					<a href="../pindex.html">Home</a>
+                    <a href="index.html">Filmografía</a>
+                    <a href="museo.html">Museo</a>
+					<a href="miy.html">Hayao Miyazaki</a>
+
+                    
+
+                    
+                    
+
+                    
+            </nav>
+       
+            <div class="peliculas">
+			<br>
+                <b>La princesa Mononoke se centra en la lucha entre los guardianes sobrenaturales de un bosque y los humanos que profanan sus recursos, visto por el forastero Ashitaka. La princesa Mononoke fue el undécimo largometraje de Studio Ghibli y el sexto dirigido por Miyazaki.</b><br>
+				<br><br>
+                <img id="ghibli" src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/main_element/public/media/image/2016/07/princesa-mononoke.jpg?itok=4LcFat41" />
+				<iframe id="ghibli2" src="https://www.youtube.com/embed/LzdL-x7PyqY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+            
+                
+        </div>
+    </body>
+</html>

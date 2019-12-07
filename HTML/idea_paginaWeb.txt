@@ -1,0 +1,8 @@
+Elementos que tendra la pagina web:
+imagen de fondo
+titulo
+abajo tendra nuestros nombres o seudonimos y copy right
+boton para peliculas
+boton para ver directivos
+boton para ver museo ghibli
+pequeña info del studio

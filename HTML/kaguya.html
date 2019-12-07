@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Studio Ghibli</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="viaje.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript">
+            window.onload=function(){
+                document.getElementById('cambiar').onmouseover=cambiacolor;
+                document.getElementById('cambiar').onmouseout=quitacolor;
+            }
+            function cambiacolor(){
+                document.getElementById('cambiar').style.color="gold";
+            }
+            function quitacolor(){
+                document.getElementById('cambiar').style.color="white";
+            }
+        </script>
+    </head>
+    <body>
+       <div class="texto" >
+             <h1 ><font face="Comic Sans MS,arial,verdana">El cuento de la princesa Kaguya</font></h1>
+        </div>
+        <div id="menu">
+            <nav class="menuCSS">
+                <ul>
+                    <!--Películas-->
+					<a href="../index.html">Home</a>
+                    <a href="index.html">Filmografía</a>
+                    <a href="museo.html">Museo</a>
+					<a href="miy.html">Hayao Miyazaki</a>
+
+
+                    
+
+                    
+                    
+
+                    
+            </nav>
+       
+            <div class="peliculas">
+			<br>
+                <b>La historia comienza cuando una pareja de ancianos campesinos encuentran a una niña diminuta dentro de una planta de bambú y deciden adoptarla como su hija. Convertida rápidamente en una hermosa mujer, es pretendida por muchos hombres, incluido el emperador. Sin embargo, su inicial júbilo se ve reducido a tristeza, pues asegura que vendrán por ella las personas de la luna, lugar del que es originaria.</b><br>
+				<br><br>
+                <img id="ghibli" src="http://filmfilicos.com/wp-content/uploads/2015/01/El-cuento-de-la-princesa-Kaguya.jpg" />
+				<iframe id="ghibli2" src="https://www.youtube.com/embed/d9VEZ8R7L6E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+            
+                
+        </div>
+    </body>
+</html>

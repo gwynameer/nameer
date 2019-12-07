@@ -1,0 +1,10 @@
+nombre
+fecha de lanzamiento
+genero
+director
+enlace trailer
+boton para artbook
+boton para ost
+info de los cells
+enlace para amazon
+imagen de fondo de la peli

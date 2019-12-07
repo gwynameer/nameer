@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Studio Ghibli</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="viaje.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript">
+            window.onload=function(){
+                document.getElementById('cambiar').onmouseover=cambiacolor;
+                document.getElementById('cambiar').onmouseout=quitacolor;
+            }
+            function cambiacolor(){
+                document.getElementById('cambiar').style.color="gold";
+            }
+            function quitacolor(){
+                document.getElementById('cambiar').style.color="white";
+            }
+        </script>
+    </head>
+    <body>
+       <div class="texto" >
+             <h1 ><font face="Comic Sans MS,arial,verdana">El Castillo en el cielo</font></h1>
+        </div>
+        <div id="menu">
+            <nav class="menuCSS">
+                <ul>
+                    <!--Películas-->
+					<a href="../index.html">Home</a>
+                    <a href="index.html">Filmografía</a>
+                    <a href="museo.html">Museo</a>
+					<a href="miy.html">Hayao Miyazaki</a>
+
+
+                    
+
+                    
+                    
+
+                    
+            </nav>
+       
+            <div class="peliculas">
+			<br>
+                <b>La película sigue las aventuras de Pazu y Sheeta, dos jóvenes que intentarán evitar que una antigua piedra mágica caiga en manos de un grupo de agentes militares, quienes intentarán usarla para llegar a una legendaria isla flotante llamada «Laputa».</b><br>
+				<br><br>
+                <img id="ghibli" src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/main_element/public/media/image/2013/08/239976-exito-audiencia-japon-castillo-cielo.jpg?itok=Hc3Zq1Vn" />
+				<iframe id="ghibli2" src="https://www.youtube.com/embed/FgWd39ziFe8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+            
+                
+        </div>
+    </body>
+</html>

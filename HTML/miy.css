@@ -1,0 +1,68 @@
+body{
+    background-image: url("https://www.inalco.es/archivos/productos/134/storm-negro-natural-150x300-islimm-rect-100A.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+}
+.texto h1{
+    font-family: critter;
+    font-size: 60px;
+    color: gold;
+    text-align: center;
+}
+#menu{
+    padding-top: 2px;
+    padding-left: 110px;
+}
+nav{
+    opacity: 0.9;
+}
+.menuCSS ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menuCSS a{
+    display: block;
+    padding: 1.5em;
+    background-color: dodgerblue;
+    text-decoration: none;
+    color: yellow;
+    width: 170.5px;
+}
+.menuCSS a:hover{
+    background-color: red;
+    color: gold;
+}
+.menuCSS ul li ul{
+    display: none;
+}
+.menuCSS ul li a:hover + ul, .menuCSS ul li ul:hover{
+    display: block;
+}
+.cuerpo{
+    padding-top: 20px;
+}
+.cuerpo img{
+    width: 1094px;
+}
+.cuerpo b{
+  color: white;  
+}
+
+
+}
+.peliculas b{
+    font-size: 60px;
+    color: white;
+}
+#ghibli{
+    width: 400px;
+    height: 600px;
+}
+#ghibli2{
+    width: 800px;
+    height: 420px;
+}

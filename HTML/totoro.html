@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Studio Ghibli</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="viaje.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript">
+            window.onload=function(){
+                document.getElementById('cambiar').onmouseover=cambiacolor;
+                document.getElementById('cambiar').onmouseout=quitacolor;
+            }
+            function cambiacolor(){
+                document.getElementById('cambiar').style.color="gold";
+            }
+            function quitacolor(){
+                document.getElementById('cambiar').style.color="white";
+            }
+        </script>
+    </head>
+    <body>
+       <div class="texto" >
+             <h1 ><font face="Comic Sans MS,arial,verdana">Mi vecino Totoro</font></h1>
+        </div>
+        <div id="menu">
+            <nav class="menuCSS">
+                <ul>
+                    <!--Películas-->
+					<a href="../index.html">Home</a>
+                    <a href="index.html">Filmografía</a>
+                    <a href="museo.html">Museo</a>
+					<a href="miy.html">Hayao Miyazaki</a>
+        
+                    
+
+                    
+
+                    
+                    
+
+                    
+            </nav>
+       
+            <div class="peliculas">
+			<br>
+                <b>Mi vecino Totoro es una película de animación japonesa escrita y dirigida por Hayao Miyazaki y producida por Studio Ghibli. El filme —protagonizado por los actores Noriko Hidaka, Chika Sakamoto y Hitoshi Takagi— cuenta la historia de una familia y sus interacciones con un espíritu del bosque al que llaman "Totoro", en un Japón de la posguerra.</b><br>
+				<br><br>
+                <img id="ghibli" src="https://static.lared.cl/wp-content/uploads/2016/07/mi-vecino-totoro-960.jpg" />
+				<iframe id="ghibli2" src="https://www.youtube.com/embed/BjeBG8Xrci8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+            
+                
+        </div>
+    </body>
+</html>

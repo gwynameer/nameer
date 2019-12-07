@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Studio Ghibli</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="viaje.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript">
+            window.onload=function(){
+                document.getElementById('cambiar').onmouseover=cambiacolor;
+                document.getElementById('cambiar').onmouseout=quitacolor;
+            }
+            function cambiacolor(){
+                document.getElementById('cambiar').style.color="gold";
+            }
+            function quitacolor(){
+                document.getElementById('cambiar').style.color="white";
+            }
+        </script>
+    </head>
+    <body>
+       <div class="texto" >
+             <h1 ><font face="Comic Sans MS,arial,verdana">Kikis Expressbud</font></h1>
+        </div>
+        <div id="menu">
+            <nav class="menuCSS">
+                <ul>
+                    <!--Películas-->
+					<a href="../index.html">Home</a>
+                    <a href="index.html">Filmografía</a>
+                    <a href="museo.html">Museo</a>
+					<a href="miy.html">Hayao Miyazaki</a>
+
+                    
+
+                    
+
+                    
+                    
+
+                    
+            </nav>
+       
+            <div class="peliculas">
+			<br>
+                <b> es una película de animación japonesa producida por Studio Ghibli, escrita y dirigida por Hayao Miyazaki. La historia se encuentra basada en la novela infantil homónima de Eiko Kadono. Es la quinta producción del estudio. En esta obra, Miyazaki muestra la transición que una niña llamada Kiki vive de la infancia a la vida adulta.</b><br>
+				<br><br>
+                <img id="ghibli" src="https://ramenparados.com/wp-content/uploads/2018/12/Miyazaki-en-Europa-Pau-Serracant-Dolmen-portada-detalle-Nicky-Kiki-Neovallense.jpg" />
+				<iframe id="ghibli2" src="https://www.youtube.com/embed/4bG17OYs-GA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+            
+                
+        </div>
+    </body>
+</html>
